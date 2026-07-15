@@ -1,0 +1,100 @@
+<html>
+<title>FORM</title>
+<form>
+<center><h1>Club Selection Form</center></h1>
+<center><img src="https://tse1.mm.bing.net/th/id/OIP.1wYkqXLvzC5oADYnHSmGpQAAAA?r=0&cb=thfc1falcon3&rs=1&pid=ImgDetMain&o=7&rm=3"></center>
+<hr>
+<br>
+<table>
+<tr>
+<td>Student name:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Year:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Department:</td>
+<td>
+<select>
+<option></option>
+<option>BSc CS</option>
+<option>BSc Cog Sys</option>
+<option>BSc IT</option>
+<option>BSc Data Science</option>
+<option>BSc Cyber security</option>
+<option>BSc Chemistry</option>
+<option>BSc Physics</option>
+<option>BSc Zology</option>
+<option>BSc Botony</option>
+<option>BSc Psychology</option>
+<option>BA English</option>
+<option>BA Tamil</option>
+<option>BA History</option>
+</select></td>
+</tr>
+<tr>
+<td>Fathers Name:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Mothers Name:</td>
+<td><input type="text"></td>
+</tr>
+<tr>
+<td>Personal MailId:</td>
+<td><input type="email"></td>
+</tr>
+<tr>
+<td>Phone no:</td>
+<td><input type="tel"></td>
+</tr>
+<tr>
+<td>Date of birth:</td>
+<td><input type="date"></td>
+</tr>
+<tr>
+<td>Gender:</td>
+<td><input type="radio" name="gender">Female <input type="radio" name="gender">Male</td>
+</tr>
+<tr>
+<td>Address</td>
+<td><textarea rows="5" cols="25"></textarea></td>
+</tr>
+<tr>
+<td>Hostel/Dayscholar:</td>
+<td>
+<input type="radio" name="choose">Hostel <input type="radio" name="choose">Dayscholar
+</td>
+</tr>
+<tr>
+<td>Register no:</td>
+<td><input type="text"></td>
+</tr>
+<tr><td>College MailId:</td>
+<td><input type="email"></td>
+</tr>
+<tr>
+<td>Choose Club</td>
+<td>
+<select>
+<option></option>
+<option>WELL BEING CAMPAINGERS CLUB</option>
+<option>NSS CLUB</option>
+<option>NCC CLUB</option>
+<option>LIONS CLUB</option>
+<option>ECO CLUB</option>
+<option>UYIR CLUB</option>
+<option>YOGA CLUB</option>
+<option>HEALTH AND WELLNESS CLUB</option>
+<option>ROTRACT CLUB</option>
+</select>
+</td>
+</tr>
+<tr>
+<td><input type="submit"> <input type="reset"></td>
+</tr>
+</form>
+</html>
+
