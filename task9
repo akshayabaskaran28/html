@@ -1,0 +1,104 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Blog</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin:0; background:#f4f4f4;">
+
+    <!-- Header -->
+    <header style="background:#008080; color:white; padding:20px; text-align:center;">
+        <h1>TRAVEL BLOG SITE</h1>
+        <p>Discover Beautiful Places Around the World</p>
+<p>🌍share with me</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav style="background:#004d4d; padding:10px; text-align:center;">
+        <a href="#home" style="color:white; text-decoration:none; margin:15px;">Home</a>
+        <a href="#destinations" style="color:white; text-decoration:none; margin:15px;">Destinations</a>
+        <a href="#tips" style="color:white; text-decoration:none; margin:15px;">Travel Tips</a>
+        <a href="#contact" style="color:white; text-decoration:none; margin:15px;">Contact</a>
+    </nav>
+
+    <!-- Banner -->
+    <section id="home" style="padding:30px; text-align:center;">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1000"
+             alt="Beach"
+             width="90%">
+        <h2>Welcome to My Travel Blog</h2>
+        <p>
+            Travel is the best way to explore new cultures, meet amazing people,
+            and create unforgettable memories. Join me as I share exciting travel
+            stories and destination guides.
+        </p>
+    </section>
+
+    <!-- Destinations -->
+    <section id="destinations" style="padding:20px;">
+        <h2 style="text-align:center;">Top Destinations</h2>
+
+        <table width="100%" cellpadding="15">
+            <tr align="center">
+                <td bgcolor="white">
+                    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=300"
+                         width="250" alt="Mountains">
+                    <h3>Swiss Alps</h3>
+                    <p>Snowy mountains, breathtaking scenery, and adventure sports.</p>
+                </td>
+
+                <td bgcolor="white">
+                    <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98?w=300"
+                         width="250" alt="Paris">
+                    <h3>Paris</h3>
+                    <p>The city of lights, famous for the Eiffel Tower and delicious food.</p>
+                </td>
+
+                <td bgcolor="white">
+                    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=300"
+                         width="250" alt="Beach">
+                    <h3>Maldives</h3>
+                    <p>Crystal-clear water, luxury resorts, and relaxing beaches.</p>
+                </td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Travel Tips -->
+    <section id="tips" style="background:white; padding:25px;">
+        <h2>Travel Tips</h2>
+
+        <ul>
+            <li>Pack light and carry only essentials.</li>
+            <li>Keep copies of important documents.</li>
+            <li>Try local food and experience local culture.</li>
+            <li>Always carry a water bottle.</li>
+            <li>Plan your budget before traveling.</li>
+        </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" style="padding:25px;">
+        <h2>Contact Me</h2>
+
+        <form>
+            <label>Name:</label><br>
+            <input type="text" placeholder="Enter your name" size="40"><br><br>
+
+            <label>Email:</label><br>
+            <input type="email" placeholder="Enter your email" size="40"><br><br>
+
+            <label>Message:</label><br>
+            <textarea rows="5" cols="42" placeholder="Write your message"></textarea><br><br>
+
+            <input type="submit" value="Send Message">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer style="background:#008080; color:white; text-align:center; padding:15px;">
+        <p>&copy; 2026 Wander With Me | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
